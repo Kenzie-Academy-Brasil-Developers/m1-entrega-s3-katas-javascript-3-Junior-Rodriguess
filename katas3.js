@@ -1,7 +1,4 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 17, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
-
-
-
 function kata1() {
     let num = []
     for (let i = 1; i <= 25 ;i++) {
@@ -14,7 +11,7 @@ console.log(kata1())
 function kata2() {
     let num1 = []
     for (let i = 25; i >= 1; i--) {
-        num1.push(i)
+        num1.push(i) 
     }      
     return num1
 }
@@ -128,20 +125,14 @@ function kata13(arr) {
     return por8
 }
 console.log(kata13(sampleArray))
-
 function kata14() {
     let quadrado = [];
-
-    for(let i = 0; i < sampleArray.length; i++){
-
+    for (let i = 0; i < sampleArray.length; i++) {
         quadrado.push(sampleArray[i] ** 2)
-
     }
 return quadrado
-
 }
 console.log(kata14())
-
 function kata15(soma) {
      let result = 0
     for(let i = 0; i < soma.length; i++){
